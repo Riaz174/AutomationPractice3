@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functionaltestingsuit]">
+  <listeners>
+    <listener class-name="Capstone.AutomationPractice3.Ilisteners"/>
+  </listeners>
+  <test thread-count="5" name="Regressiontesting(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="wbsite" value="https://www.facebook.com"/>
+    <classes>
+      <class name="Capstone.AutomationPractice3.SignToAmazon">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Browsers"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Capstone.AutomationPractice3.SignToAmazon -->
+    </classes>
+  </test> <!-- Regressiontesting(failed) -->
+  <test thread-count="5" name="RegressiontestingEdge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <parameter name="wbsite" value="https://www.facebook.com"/>
+    <classes>
+      <class name="Capstone.AutomationPractice3.SignToAmazon">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Browsers"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Capstone.AutomationPractice3.SignToAmazon -->
+    </classes>
+  </test> <!-- RegressiontestingEdge(failed) -->
+</suite> <!-- Failed suite [Functionaltestingsuit] -->

@@ -10,7 +10,7 @@ public class Flights {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\riaz_\\eclipse-workspace\\AutomationPractice3\\src\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\riaz_\\git\\repository5\\AutomationPractice3\\src\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.navigate().to("https://www.expedia.com");
 		driver.manage().window().maximize();
